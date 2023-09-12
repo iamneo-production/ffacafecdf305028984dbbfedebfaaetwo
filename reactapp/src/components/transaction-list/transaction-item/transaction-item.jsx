@@ -65,6 +65,9 @@ const TransactionItem = ({
       Include the CrossIcon component in the Button as DeleteButton.*/}
 
     {/* Write a Code here */}
+    <Button onClick={() => onDeleteClick(id)}>
+      <CrossIcon />
+    </Button>
     
   </TransactionItemStyle>
   );
