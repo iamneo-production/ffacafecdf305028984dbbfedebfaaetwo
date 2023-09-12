@@ -16,7 +16,8 @@ export function currencyFormat(number) {
   
  function sum(list) {
                //Implement the sum function so that it calculates the monthly income and expenditure 
- 
+               return list.reduce((total, item) => total + item.value, 0);
+
       }
 
   
