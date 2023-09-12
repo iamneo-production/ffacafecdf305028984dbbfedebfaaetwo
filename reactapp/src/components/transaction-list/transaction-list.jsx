@@ -13,13 +13,13 @@ const TransactionList = ({ list, onDeleteClick }) => {
         {/* Map the TransactionItem component 
         So that it renders income list and expenditures list correctly with onDeleteClick functionality
         */}
-        {list.map((transaction) => (
+        {/* {list.map((transaction) => (
         <TransactionItem
           key={transaction.id}
           onDeleteClick={onDeleteClick}
           {...transaction}
         />
-      ))}
+      ))} */}
          
          {/* Write a Code here */}
 
